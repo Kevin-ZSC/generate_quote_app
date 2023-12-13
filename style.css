@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(158, 183, 231);
+}
+.quote-container{
+    width: 90%;
+    max-width: 600px;
+    margin:100px auto 0;
+    padding: 40px 30px;
+    background-color: aliceblue; 
+}
+
+.quote-container h1{
+    text-align: center;
+}
+
+.quote-container hr {
+    width: 100%;
+    max-width: 50px;
+    margin:5px auto 0;
+    border-color:rgb(54, 69, 234);
+}
+
+.quote-content{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto 0;
+    min-height: 150px;
+    border: 0;
+    display: none;
+}
+
+img{
+    width:15px;
+    margin-right: 5px;
+}
+
+.btn{
+    gap:10px;
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+}
+
+.newQ{
+    width:100px;
+    padding:10px;
+    border-radius: 30px;
+    outline: 0;
+    border: 0;
+    background-color: rgba(54, 125, 239, 0.932);
+    color:white;
+}
+.newQ:hover{
+    cursor: pointer;
+    background-color: rgb(7, 85, 154);
+}
+.tweet{
+    width:100px;
+    padding:10px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px rgb(26, 125, 217) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.tweet:hover {
+    cursor: pointer;
+    background-color: rgb(83, 131, 221);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+span{
+    position: absolute;
+    right:10px;
+    bottom: 30px;
+
+}
+
+blockquote{
+    margin:15px;
+}
